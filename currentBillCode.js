@@ -1,5 +1,6 @@
 
 let x = 500;
+  if(x>0) {
   if(x<=50) {
       console.log(x*3);
   } else if(x<=100) {
@@ -11,6 +12,9 @@ let x = 500;
   }else if(x>=201) {
       console.log((50*3)+(50*3.50)+(50*4)+(50*4.50)+(x-200)*4.75);
   }else  {
-      console.log("please enter a valid number")
+      console.log("please enter a valid number");
   }
+}else {
+    console.log("unit must be positive number");
+}
   
