@@ -1,16 +1,17 @@
 
 let x = 500;
-  if(x>0) {
-  if(x<=50) {
-      console.log(x*3);
-  } else if(x<=100) {
-      console.log(50*3+(x-50)*3.50);
-  } else if(x<=150) {
-      console.log((50*3)+(50*3.50)+(x-100)*4);
-  }else if(x<=200) {
-      console.log((50*3)+(50*3.50)+(50*4)+(x-150)*4.50);
-  }else if(x>=201) {
-      console.log((50*3)+(50*3.50)+(50*4)+(50*4.50)+(x-200)*4.75);
+var amount;
+  if(units>0) {
+  if(units<=50) {
+      console.log(amount = units*3);
+  } else if(units<=100) {
+      console.log(amount = 50*3+(units-50)*3.50);
+  } else if(units<=150) {
+      console.log((50*3)+(50*3.50)+(units-100)*4);
+  }else if(units<=200) {
+      console.log((50*3)+(50*3.50)+(50*4)+(units-150)*4.50);
+  }else if(units>=201) {
+      console.log((50*3)+(50*3.50)+(50*4)+(50*4.50)+(units-200)*4.75);
   }else  {
       console.log("please enter a valid number");
   }
